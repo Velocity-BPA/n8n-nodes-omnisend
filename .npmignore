@@ -1,0 +1,45 @@
+# Source files (distributed as compiled)
+credentials/**/*.ts
+nodes/**/*.ts
+!dist/**/*.js
+!dist/**/*.d.ts
+
+# Config files
+.eslintrc.js
+.prettierrc
+tsconfig.json
+gulpfile.js
+
+# Development
+.vscode/
+.idea/
+.git/
+.github/
+
+# Test files
+test/
+coverage/
+.nyc_output/
+*.test.ts
+*.spec.ts
+
+# Scripts
+scripts/
+
+# Documentation (keep README and LICENSE)
+*.md
+!README.md
+!LICENSE
+!COMMERCIAL_LICENSE.md
+!LICENSING_FAQ.md
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Temporary
+tmp/
+temp/
